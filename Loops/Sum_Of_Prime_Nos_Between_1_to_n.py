@@ -9,10 +9,10 @@ else:
             if (i%j==0):
                 b.append(j)
         if (len(b)==2):
-            c.append(str(i))
+            c.append(i)
     b=0
     for j in c:
-        b+=int(j)
+        b+=j
     print(b)
         
     
