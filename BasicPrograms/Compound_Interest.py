@@ -1,0 +1,5 @@
+P=float(input("Enter Principle amount : "))
+R=float(input("Enter Rate of Interest : "))
+T=float(input("Enter Time Period in years : "))
+CI=P*(pow(((100+R)/100),T))
+print("Compound Interest : " +str(CI))
